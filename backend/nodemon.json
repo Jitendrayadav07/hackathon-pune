@@ -1,0 +1,26 @@
+{
+  "watch": [
+    "controllers",
+    "models", 
+    "routes",
+    "middlewares",
+    "config",
+    "index.js"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules",
+    "*.test.js",
+    "*.spec.js",
+    "logs",
+    "*.log"
+  ],
+  "delay": 2000,
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "restartable": "rs",
+  "verbose": false,
+  "legacyWatch": true,
+  "signal": "SIGTERM"
+}

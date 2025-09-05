@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev:stable": "node start-server.js",
+    "dev:simple": "./start-dev.sh",
+    "dev:reliable": "node start-server.js",
+    "dev:working": "node start-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-form-data": "^3.0.1",
+    "express-session": "^1.18.2",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.4",
+    "oauth": "^0.10.2",
+    "os": "^0.1.2",
+    "passport": "^0.7.0",
+    "passport-oauth2": "^1.8.0",
+    "passport-twitter": "^1.0.4",
+    "sequelize": "^6.37.7",
+    "twitter-api-v2": "^1.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
